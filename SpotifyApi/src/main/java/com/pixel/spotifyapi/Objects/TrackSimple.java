@@ -8,6 +8,7 @@ import java.util.Map;
 
 public class TrackSimple implements Parcelable {
     public List<ArtistSimple> artists;
+    public AlbumSimple album;
     public List<String> available_markets;
     public Boolean is_playable;
     public LinkedTrack linked_from;
